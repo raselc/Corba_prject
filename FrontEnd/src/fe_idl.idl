@@ -1,0 +1,10 @@
+module fe_idl {
+	interface fe{
+		string operation (in string badgeId, in string firstName, in string lastName,
+			in string description, in string address, in string lastDate,
+			in string lastLocation, in string status, in string recordID,
+			in string remoteStation, in string operation);
+
+	};
+};
+	
